@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Doc</title>
+ 
+
+
+
+
+
+</head>
+
+
+<body>
+<script>
+  fbq('track', 'Lead');
+</script>
+
+</body>
+
+<script type="text/javascript">
+  
+
+
+
+ function getURLParameter(name) {
+        return decodeURI(
+            (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search) || [, null])[1] || ''
+        );
+    }
+
+ gart=getURLParameter('adid');
+ gart1=getURLParameter('adsetname');
+ gart2=getURLParameter('age');
+ gart3=getURLParameter('gender');
+ gart4=getURLParameter('placement');
+
+ 
+glink="http://track-c.onversion.club/8170baaa-2384-4bb1-a5b1-053088bc29e5?adsetname="+gart1+"&placement="+gart4+"&age="+gart2+"&gender="+gart3+"&adid="+gart+"";
+ 
+console.log(glink);   
+   document.location.href=glink;
+
+</script>
+</html>

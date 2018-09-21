@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Doc</title>
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '147525869391323');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=147525869391323&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+
+
+</head>
+
+
+<body>
+<script>
+  fbq('track', 'Lead');
+</script>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+  
+
+  
+$(document).ready(function(){
+
+
+function time(){
+
+
+ function getURLParameter(name) {
+        return decodeURI(
+            (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search) || [, null])[1] || ''
+        );
+    }
+
+ gart=getURLParameter('adid');
+ gart1=getURLParameter('adsetname');
+ gart2=getURLParameter('age');
+ gart3=getURLParameter('gender');
+ gart4=getURLParameter('placement');
+
+ 
+glink="http://track-c.onversion.club/8170baaa-2384-4bb1-a5b1-053088bc29e5?adsetname="+gart1+"&placement="+gart4+"&age="+gart2+"&gender="+gart3+"&adid="+gart+"";
+ 
+console.log(glink);   
+   document.location.href=glink;
+
+   }
+setTimeout(time,1000);
+
+});
+
+</script>
+</html>

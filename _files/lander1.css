@@ -1,0 +1,232 @@
+html {
+    height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  font-size: 13px;
+}
+
+#wrapper {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.topLegal {
+  font-size: 14px;
+  margin: 3px auto;
+}
+
+#questionWrapper {
+  padding: 15px;
+}
+
+.main-content {
+  padding: 10px;
+  background-color: #FFFFFF !important;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.main-content p {
+  font-size: 13px;
+}
+.main-content h1 {
+  font-size: 20px;
+}
+.main-content h2 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+hr {
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+.comments {
+  background-color: #eeeff4;
+  border-bottom: 2px solid #FFFFFF;
+  padding: 10px;
+}
+.profile {
+  float: left;
+  width: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.profile img, .comment-content img {
+  width: 100%;
+}
+.name {
+  font-weight: bold;
+  color: #3b5998;
+  margin: 0;
+  cursor: pointer;
+}
+.comment-content {
+  float: left;
+  width: 190px;
+}
+
+.clr {
+  clear: both;
+}
+
+.header {
+  font-size: 18px;
+  margin: 20px auto;
+}
+
+.brand-color{
+  color: #db161d;
+}
+
+.prize-date{
+  font-size: 18px;
+}
+
+.intro {
+  font-size: 13px;
+}
+
+.giftcard {
+  margin-bottom: 15px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.answer {
+  border: 1px solid #0153a0;
+  display: block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 8px 0;
+  margin: 8px 0;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 6px;
+
+  background: #0153a0;
+}
+
+.answer:hover{opacity: 0.8;}
+
+.answer:active {
+	position:relative;
+	top:1px;
+}
+
+
+.btnYes {
+  color: white;
+  background: #00AF00;
+  border-bottom: 3px solid #008800;
+}
+
+.btnNo {
+  color: white;
+  background: #D62A14;
+  border-bottom: 3px solid #A2200F;
+}
+
+.question, .result, .check {
+  display: none; /*default hide all questions*/
+}
+
+.lastMargin {
+  height: 5px;
+}
+
+
+img.loader {
+  clear: both;
+  display: block;
+  margin: 5px 0 15px 5px;
+}
+
+.check {
+  clear: both;
+}
+
+.check h2 {
+  /*margin: 0 5px;*/
+}
+
+.checkItem {
+  clear: both;
+  display: block;
+  overflow: auto;
+}
+
+.checkItem img {
+  float: left;
+  margin-right: 10px;
+}
+
+.checkItem h3 {
+  float: left;
+  margin: 0;
+}
+
+
+/********************** OVERLAY ************************/
+/*******************************************************/
+
+.centerIt {
+  margin:0px auto;
+  text-align:center;
+  margin-top: 125px;
+}
+.centerIt a {
+  margin:0px auto;
+}
+
+.overlay-checker {
+  display: none;
+  background: #000;
+  background: rgba(0, 0, 0, 0.8);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+.overlay-checker {
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+}
+.overlay-checker-points {
+  max-width: 700px;
+  font-size: 20px;
+  padding: 0;
+}
+
+.overlay-checker-points li{list-style: none;}
+.overlay-checker-points li img{height: 21px;}
+
+
+/************************ LEGALS ************************/
+/********************************************************/
+
+.terms{
+  font-size: 12px;
+  position: absolute;
+  bottom: 5%;
+  left: 0;
+  right: 0;
+}
+
+.legal_pricing {
+  font-size: 10px;
+  padding: 10px 0;
+}
+
+/********************* MEDIA QUERIES ********************/
+/********************************************************/
